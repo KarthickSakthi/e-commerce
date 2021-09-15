@@ -1,0 +1,38 @@
+.header{
+background-color: black;
+color:white;
+display: flex;
+justify-content:space-between;
+align-items: center;
+min-height: 65px;
+padding-left: 2%;
+padding-right: 2%;
+}
+.logo{
+   color: white;
+   text-transform: uppercase;
+  
+   text-decoration: none;
+  
+}
+.header-links{
+ text-transform: uppercase;
+ display: flex;
+ 
+}
+.header-links ul li{
+color: white;
+list-style: none;
+display: inline-block;
+padding:18px;
+}
+.header-links ul li a{
+    color: white;
+    text-decoration: none;
+   
+   
+ }
+
+ .header-links ul li a:hover{
+    color: yellow;
+ }
