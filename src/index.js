@@ -9,7 +9,7 @@ import Routes from './components/front/Routes/Routes'
 ReactDOM.render(
   <BrowserRouter>
   <React.StrictMode>
-    <Routes />
+    <App />
   </React.StrictMode>
   </BrowserRouter>,
   document.getElementById('root')
