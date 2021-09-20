@@ -9,7 +9,7 @@ function App() {
   console.log("prods app.js "+productItems)
   return (
     <div className="App">
-      
+      {/*22:17*/}
     <Header/>
     <Routes productItems={productItems}/>
     </div>

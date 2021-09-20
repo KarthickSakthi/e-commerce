@@ -9,10 +9,17 @@ const Products = ({productItems}) => {
             {
                 productItems.map((product,key)=>(
                  <div className='card'> 
-                     <div>
-                     
-                       <img src={product.image} alt={product.name}/>
+                     <div> 
+                       <img classname='product-image'
+                        src={product.image} 
+                        alt={product.name}/>
                     </div>   
+                    <div className='product-name'>
+                        {product.name}
+                    </div>
+                    <div className='product-price'>${product.price}</div>
+                    <div > <button className='product-add-button'>Add to Cart </button></div>
+
                 </div>
                 ))
             }
