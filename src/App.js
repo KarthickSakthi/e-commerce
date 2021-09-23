@@ -33,15 +33,19 @@ function App() {
       )
     }
   }
+  const ClearHandleCart=()=>{
+   setCartItem([]);
+  }
   return (
     <div className="App">
       
-    <Header/>
+    <Header   cartItem={cartItem} />
     <Routes productItems={productItems}
      cartItem={cartItem} 
      handleAddProduct={handleAddProduct}
-     handleRemoveProduct={handleRemoveProduct}/>
- 
+     handleRemoveProduct={handleRemoveProduct}
+     ClearHandleCart={ClearHandleCart}/>
+    
     </div>
   );
 }

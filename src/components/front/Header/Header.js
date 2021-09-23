@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import "./Header.css"
-const Header = () => {
+const Header = ({cartItem} ) => {
     return (
         <header className='header'>
             {/*14:27*/}
@@ -24,6 +24,9 @@ const Header = () => {
             <ul>
                 <li>
                     <Link to="/cart" className="cart"><i class="fas fa-shopping-cart"></i></Link>
+                   <span className='cart-count'>
+                       {cartItem.length===0 ? "":cartItem.length}
+                   </span>
                 </li>
             </ul>
 

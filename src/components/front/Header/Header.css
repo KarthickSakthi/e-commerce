@@ -30,10 +30,17 @@ padding:18px;
 .header-links ul li a{
     color: white;
     text-decoration: none;
-   
-   
  }
 
  .header-links ul li a:hover{
     color: yellow;
+ }
+ 
+ .cart-count{
+  margin: 3px;
+font-size: 14px;
+font-weight: 700;
+vertical-align: super;
+color: yellow;
+
  }
