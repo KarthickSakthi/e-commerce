@@ -51,6 +51,11 @@
     font-size: 12px;
     
 }
+.card-items-header{
+   box-shadow: 5px 5px 5px grey;
+   padding: 7px;
+   margin-bottom:1% ;
+}
 .cart-items-name{
 font-size: 18px;
 font-weight: 800;
