@@ -22,18 +22,19 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     border-radius: 5px;
-    margin: 30px ;
-    margin-left: 10%;
+   
+    margin: 10px 0px;
+    
 }
 
 .card{
-    width: 20%;
-    height: 400px;
+    width: 80%;
+    height: 360px;
     border: 1px solid black;
     border-radius: 5px;
     overflow: hidden;
     padding: 10px;
-    margin:40px 50px;
+    margin:30px 0px;
     background-color: white;
  
 }
@@ -54,7 +55,7 @@ object-fit: cover;
 }
 .product-price{
 margin: 10px 0px;
-
+color: rgb(207, 23, 23);
 font-size: 18px;
 
 
