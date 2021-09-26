@@ -5,7 +5,9 @@ const Products = ({productItems ,handleAddProduct,handleRemoveProduct}) => {
     console.log("Products.js")
     console.log(productItems)
     return (
+        
         <div className='products'>
+           <h2  className='product-title '>Laptops</h2>
             <Carousel itemsToShow={5}>
             {
                 productItems.map((product,key)=>(
@@ -20,7 +22,7 @@ const Products = ({productItems ,handleAddProduct,handleRemoveProduct}) => {
                   {/** <h3 className='product-name'>
                         {product.name}
                     </h3> */} 
-                    <h5 className='product-description'>
+                    <h5  className='product-description'>
                         {product.description}
                     </h5>
                     <div className='product-price'><b>&#x20b9;{product.price}</b></div>

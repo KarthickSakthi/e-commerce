@@ -20,12 +20,12 @@ const Cart = ({cartItem ,handleAddProduct, handleRemoveProduct,ClearHandleCart})
                   <div key={item.id} className='cart-items-list'>
                       <img className='cart-items-image' src={item.image} alt={item.name}/> 
                        <div className='cart-data'>
-                      <div className='cart-items-name'>{item.description}</div>    
+                      <h1 className='cart-items-name'>{item.description}</h1>    
                       <div className='cart-items-function'>
                          <button className='cart-item-add' onClick={()=>handleAddProduct(item)}>Add</button>
                          <button className='cart-item-remove' onClick={()=>handleRemoveProduct(item)}>Remove</button>
                     </div>
-                    <div className='cart-itemprice' >{item.quantity}* &#x20b9;{item.price}</div>
+                    <div className='cart-itemprice' >{item.quantity}* <span style={{color:"red"}}> &#x20b9;{item.price}</span></div>
                  </div>
                   </div>
               ))
