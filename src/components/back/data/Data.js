@@ -58,6 +58,123 @@ const Data={
     }
 
 
+    ],
+    HeadsetandSpeakers:[
+        {
+            id:1,
+            name:"Headset 1",
+            price:10000,
+            image:"pics/Headset1.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        },
+        {
+            id:2,
+            name:"Speaker 1",
+            price:10000,
+            image:"pics/Speaker1.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:3,
+            name:"Headset 2",
+            price:10000,
+            image:"pics/Headset2.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:4,
+            name:"Speaker 2",
+            price:10000,
+            image:"pics/Speaker2.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:5,
+            name:"Headset 3",
+            price:10000,
+            image:"pics/Headset3.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        },
+        {
+            id:6,
+            name:"Speaker 3",
+            price:10000,
+            image:"pics/Speaker3.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:7,
+            name:"Headset 4",
+            price:10000,
+            image:"pics/Headset4.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:8,
+            name:"Speaker 4",
+            price:10000,
+            image:"pics/Speaker4.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }
+
+    ],
+    SmartPhones:[
+        {
+            id:1,
+            name:"Mobile 1",
+            price:10000,
+            image:"pics/Mobile1.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:2,
+            name:"Mobile 2",
+            price:10000,
+            image:"pics/Mobile2.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:3,
+            name:"Mobile 3",
+            price:10000,
+            image:"pics/Mobile3.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:4,
+            name:"Mobile 4",
+            price:10000,
+            image:"pics/Mobile4.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:5,
+            name:"Mobile 5",
+            price:10000,
+            image:"pics/Mobile5.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:6,
+            name:"Mobile 6",
+            price:10000,
+            image:"pics/Mobile6.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:7,
+            name:"Mobile 7",
+            price:10000,
+            image:"pics/Mobile7.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
+        {
+            id:8,
+            name:"Mobile 8",
+            price:10000,
+            image:"pics/Mobile8.jpg",
+            description:"LG Gram 16 Ultra-Light 11th Gen Core i5,8 GB RAM, 512 GB SSD, Win-10, Iris Xe Graphics, 16-inches (40.64 cms), Thunderbolt 4, USC -C x 2 (with Power), 1.19 kg, 3 Yr Warranty (16Z90P-G.AJ55A2, Black)"
+        }, 
     ]
 }
 export default Data;

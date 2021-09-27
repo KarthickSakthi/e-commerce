@@ -6,7 +6,7 @@ import Routes from './components/front/Routes/Routes';
 import Cart from './components/front/Cart/Cart';
 import React,{useState} from 'react';
 function App() {
-  const{productItems}=data;
+  const{productItems,HeadsetandSpeakers,SmartPhones}=data;
   console.log("prods app.js "+productItems)
   const[cartItem,setCartItem]=useState([])
   
@@ -42,6 +42,8 @@ function App() {
     <Header   cartItem={cartItem} />
     <Routes productItems={productItems}
      cartItem={cartItem} 
+     HeadsetandSpeakers={HeadsetandSpeakers}
+     SmartPhones={SmartPhones}
      handleAddProduct={handleAddProduct}
      handleRemoveProduct={handleRemoveProduct}
      ClearHandleCart={ClearHandleCart}/>
