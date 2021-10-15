@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
      
-   
+    
     <BannerSlide/>
     <Routes productItems={productItems}
      cartItem={cartItem} 
