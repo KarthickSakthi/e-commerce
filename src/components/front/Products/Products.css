@@ -92,3 +92,11 @@ bottom: 9px;
     font-size: 13px!important;
    
 }
+
+@media  (max-width:980px){
+    .product-description{
+        display: none;
+       
+    }
+    
+}

@@ -5,6 +5,7 @@ import Header from './components/front/Header/Header';
 import Routes from './components/front/Routes/Routes';
 import Cart from './components/front/Cart/Cart';
 import React,{useState} from 'react';
+import BannerSlide from './components/BannerSlide/BannerSlide';
 function App() {
   const{productItems,HeadsetandSpeakers,SmartPhones}=data;
   console.log("prods app.js "+productItems)
@@ -38,8 +39,9 @@ function App() {
   }
   return (
     <div className="App">
-      
-    <Header   cartItem={cartItem} />
+     
+   
+    <BannerSlide/>
     <Routes productItems={productItems}
      cartItem={cartItem} 
      HeadsetandSpeakers={HeadsetandSpeakers}
