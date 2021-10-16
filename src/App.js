@@ -6,6 +6,7 @@ import Routes from './components/front/Routes/Routes';
 import Cart from './components/front/Cart/Cart';
 import React,{useState} from 'react';
 import BannerSlide from './components/BannerSlide/BannerSlide';
+import MultiProducts from './components/MultiProducts/MultiProducts'
 function App() {
   const{productItems,HeadsetandSpeakers,SmartPhones}=data;
   console.log("prods app.js "+productItems)
@@ -40,8 +41,9 @@ function App() {
   return (
     <div className="App">
      
-    
-    <BannerSlide/>
+    <Header cartItem={cartItem}/>
+   
+   
     <Routes productItems={productItems}
      cartItem={cartItem} 
      HeadsetandSpeakers={HeadsetandSpeakers}
@@ -49,7 +51,7 @@ function App() {
      handleAddProduct={handleAddProduct}
      handleRemoveProduct={handleRemoveProduct}
      ClearHandleCart={ClearHandleCart}/>
-    
+ 
     </div>
   );
 }

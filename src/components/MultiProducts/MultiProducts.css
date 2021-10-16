@@ -1,0 +1,15 @@
+.Products-Slide-Container{
+   display: block;
+    
+   
+
+}
+.imgStyle{
+ width:100%;
+ height: 20vh;
+ object-fit: contain;
+
+}
+.product-add-button{
+    width: 50%;
+}

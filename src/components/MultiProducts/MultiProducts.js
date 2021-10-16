@@ -1,8 +1,8 @@
 import React from 'react'
-import '../BannerSlide/BannerSlide.css'
+import '../MultiProducts/MultiProducts.css'
 import Slider from 'react-slick'
 
-import { data } from './Bannerdata'
+import  Data  from '../back/data/Data'
 import { ArrowBackIos,  ArrowForwardIos } from '@material-ui/icons'
 
 const PreviousBtn=(props)=>{
@@ -22,7 +22,7 @@ const NextBtn=(props)=>{
         </div>
     )
 }
-const BannerSlide = () => {
+const MultiProducts = ({handleAddProduct,productItems}) => {
     var settings = {
       dots: true,
       infinite: true,
@@ -33,13 +33,18 @@ const BannerSlide = () => {
       nextArrow:<NextBtn/>
       
       };
+    
     return (
-        <div style={{margin:'2%'}}>
-            <Slider {...settings}>
+        <div style={{margin:'2%',textAlign:'center'}}>
+            <Slider {...settings} slidesToShow={4}>
                 {
-                    data.map(item=>(
-                     <div >
-                        <img src={item} style={{width:'100%',height:'50vh'}}></img>
+                    productItems.map(prod=>(
+                     <div  className='Products-Slide-Container'>
+                        <img src={prod.image} className='imgStyle'></img>
+                        <p>{prod.name}</p>
+                        <p>{prod.price}</p>
+                      
+                        <div > <button className='product-add-button ' onClick={()=>handleAddProduct(prod)}>Add to Cart </button></div>
                     </div>
                     ))
                 }
@@ -50,4 +55,4 @@ const BannerSlide = () => {
     )
 }
 
-export default BannerSlide
+export default MultiProducts

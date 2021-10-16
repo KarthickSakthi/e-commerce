@@ -4,12 +4,17 @@ import Products from '../Products/Products'
 import Header from '../Header/Header'
 import Signup from '../Signup/Signup'
 import Cart  from '../Cart/Cart'
+import MultiProducts from '../../MultiProducts/MultiProducts'
+import BannerSlide from '../../BannerSlide/BannerSlide'
 const Routes = ({productItems ,cartItem ,HeadsetandSpeakers,SmartPhones,handleAddProduct,handleRemoveProduct , ClearHandleCart}) => {
     return (
         <div>
             <Switch>
                 <Route path='/' exact >
-                    <Products productItems={productItems} 
+                <BannerSlide/>
+                <MultiProducts productItems={productItems} 
+                handleAddProduct={handleAddProduct}/>
+                <Products productItems={productItems} 
                 HeadsetandSpeakers={HeadsetandSpeakers} 
                 SmartPhones={SmartPhones}
                 handleAddProduct={handleAddProduct}
