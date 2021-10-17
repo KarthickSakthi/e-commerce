@@ -13,7 +13,9 @@ const Routes = ({productItems ,cartItem ,HeadsetandSpeakers,SmartPhones,handleAd
                 <Route path='/' exact >
                 <BannerSlide/>
                 <MultiProducts productItems={productItems} 
-                handleAddProduct={handleAddProduct}/>
+                handleAddProduct={handleAddProduct}
+                HeadsetandSpeakers={HeadsetandSpeakers} 
+                SmartPhones={SmartPhones}/>
                 <Products productItems={productItems} 
                 HeadsetandSpeakers={HeadsetandSpeakers} 
                 SmartPhones={SmartPhones}

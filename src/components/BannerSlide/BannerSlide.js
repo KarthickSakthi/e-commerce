@@ -10,7 +10,7 @@ const PreviousBtn=(props)=>{
     const{className,onClick}=props
     return(
         <div className={className} onClick={onClick}>
-           <ArrowBackIos style={{color:'Black'}}/>
+           <ArrowBackIos className='Arrow-left-Style'/>
        </div>   
     )
 }
@@ -18,7 +18,7 @@ const NextBtn=(props)=>{
     const{className,onClick}=props
     return(
         <div className={className} onClick={onClick}>
-              <ArrowForwardIos style={{color:'Black'}}/>
+              <ArrowForwardIos className='Arrow-right-Style'/>
         </div>
     )
 }
@@ -39,7 +39,7 @@ const BannerSlide = () => {
                 {
                     data.map(item=>(
                      <div >
-                        <img src={item} style={{width:'100%',height:'50vh'}}></img>
+                        <img src={item} className='BannerSlide-img'></img>
                     </div>
                     ))
                 }

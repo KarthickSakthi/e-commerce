@@ -1,8 +1,11 @@
 .Products-Slide-Container{
    display: block;
-    
-   
-
+   margin-top: 3%;
+   text-align: center;
+}
+.product-title{
+    font-size: 24px;
+     
 }
 .imgStyle{
  width:100%;
@@ -13,3 +16,71 @@
 .product-add-button{
     width: 50%;
 }
+div > p {
+    margin: 2%;
+}
+.product-title-container{
+    box-shadow: 5px 5px 5px grey;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    
+}
+.ViewBtn{
+
+         font-size: 10px;
+        border-radius: 3px;
+        font-weight: 700;
+        border: none;
+        outline: none;
+        background-color: rgb(49, 67, 233);
+        color: white;
+        width: 100%;
+        padding: 9px;
+        height: 4vh;
+        margin: 1%;
+        cursor: pointer;
+        text-transform: uppercase;
+}
+@media (max-width:480px){
+    .Products-Slide-Container{
+        display: block;
+        margin-top: 3%;
+        text-align: center;
+     }
+    .imgStyle{
+        width:100%;
+        height: 10vh; 
+        
+       }
+       .product-title{
+        box-shadow: 5px 5px 5px grey;
+        padding: 7px;
+        width:100%;
+        font-size: 15px;
+        text-align: start;
+        margin-top: 9%;
+      
+    }
+       .product-add-button{
+        
+        font-size: 7px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        background-color: rgb(47, 97, 153);
+        color: white;
+        width: 80%;
+        height: 3vh;
+        margin: 1%;
+        cursor: pointer;
+        text-transform: uppercase;
+      
+        
+        
+        }
+    }
