@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
      
-   {/* <Header cartItem={cartItem}/> */}
+    <Header cartItem={cartItem}/>
    
    
     <Routes productItems={productItems}
@@ -51,7 +51,7 @@ function App() {
      handleAddProduct={handleAddProduct}
      handleRemoveProduct={handleRemoveProduct}
      ClearHandleCart={ClearHandleCart}/>
- 
+  
     </div>
   );
 }
