@@ -26,7 +26,7 @@ const BannerSlide = () => {
     var settings = {
       dots: true,
       infinite: true,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 2000,
       initialSlide:1,
       prevArrow:<PreviousBtn/>,
@@ -34,19 +34,24 @@ const BannerSlide = () => {
       
       };
     return (
-        <div style={{margin:'2%'}}>
+       
+    
+         
+        <div  className='BannerSlide' >
+        
             <Slider {...settings}>
                 {
                     data.map(item=>(
-                     <div >
+                    
                         <img src={item} className='BannerSlide-img'></img>
-                    </div>
+                  
                     ))
                 }
               
                
             </Slider>
         </div>
+        
     )
 }
 

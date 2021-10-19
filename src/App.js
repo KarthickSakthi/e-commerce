@@ -7,6 +7,7 @@ import Cart from './components/front/Cart/Cart';
 import React,{useState} from 'react';
 import BannerSlide from './components/BannerSlide/BannerSlide';
 import MultiProducts from './components/MultiProducts/MultiProducts'
+import Navbar from './components/hamburger-menu/Nav/Navbar';
 function App() {
   const{productItems,HeadsetandSpeakers,SmartPhones}=data;
   console.log("prods app.js "+productItems)
@@ -41,9 +42,9 @@ function App() {
   return (
     <div className="App">
      
-    <Header cartItem={cartItem}/>
+    {/*<Header cartItem={cartItem}/> */}
    
-   
+   <Navbar cartItem={cartItem}/>
     <Routes productItems={productItems}
      cartItem={cartItem} 
      HeadsetandSpeakers={HeadsetandSpeakers}
